@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import './Toast.css';
-
+ 
 function Toast({ show, message, onClose, duration = 2500 }) {
   useEffect(() => {
     if (!show) return;
